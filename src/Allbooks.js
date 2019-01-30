@@ -2,7 +2,7 @@ import React from 'react'
 import * as BooksAPI from './BooksAPI'
 import './App.css'
 
-class BooksApp extends React.Component {
+class Allbooks extends React.Component {
   state = {
     query: "",
     searchBooks: [],
@@ -252,4 +252,4 @@ class BooksApp extends React.Component {
   }
 }
 
-export default BooksApp
+export default Allbooks
